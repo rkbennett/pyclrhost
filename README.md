@@ -6,7 +6,8 @@ pyclrhost is a custom wrapper for interfacing with a modified clr-loader dll fro
 
 After compiling this package via `python .\setup.py build` you will need to have also compiled my custom version of [clr-loader](https://github.com/rkbennett/clr-loader). Once you switch out their clrloader.dll for mine you'll be able to interact with it from memory
 
-Basic PoC usage in python
+Basic PoC usage in python (The file paths will need updated as these are local to my system)
+
 ```python
 import pyclrhost
 dll = open(r"c:\Users\User\clr-loader\netfx_loader\bin\Release\net47\win10-x64\ClrLoader.dll","rb").read() #The raw bytes of my modified clrloader
