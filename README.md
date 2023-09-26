@@ -4,7 +4,7 @@ pyclrhost is a custom wrapper for interfacing with a modified clr-loader dll fro
 
 ## Usage
 
-After compiling this package via `python .\setup.py build` you will need to have also compiled my custom version of [pythonnet](https://github.com/pythonnet/clr-loader)'s clr-loader (I'll release my version soon and update this). Once you switch out their clrloader.dll for mine you'll be able to interact with it from memory
+After compiling this package via `python .\setup.py build` you will need to have also compiled my custom version of [clr-loader](https://github.com/rkbennett/clr-loader). Once you switch out their clrloader.dll for mine you'll be able to interact with it from memory
 
 Basic PoC usage in python
 ```python
