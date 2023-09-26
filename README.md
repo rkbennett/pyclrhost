@@ -1,6 +1,6 @@
 # pyclrhost
 
-pyclrhost is a custom wrapper for interfacing with a modified clr-loader dll from [pythonnet](https://github.com/pythonnet/clr-loader). This essentially means that, with my modified clr-loader, you'll be able to import pythonnet from memory.
+pyclrhost is a custom wrapper for interfacing with a modified clr-loader dll from [pythonnet](https://github.com/pythonnet/clr-loader). This essentially means that, with my modified [clr-loader](https://github.com/rkbennett/clr-loader), you'll be able to import pythonnet from memory.
 
 ## Usage
 
